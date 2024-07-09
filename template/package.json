@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "htmx.org": "^1.9.10",
+        "hyperscript.org": "^0.9.12"
+    }
+}

@@ -2,3 +2,7 @@ description: Bootstrap Template
 template:
     executable: ["**/gradlew*", "**/grailsw*"]
     binaryExtensions: ['png','gif','jpg','jpeg','ico','icns','pdf','zip','jar','class']
+scripts:
+    preApplyTemplate: scripts/hello.groovy
+    postApplyTemplate: scripts/bye.groovy
+    postGenerateProject: scripts/done.groovy

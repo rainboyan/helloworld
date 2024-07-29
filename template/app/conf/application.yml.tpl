@@ -94,6 +94,7 @@ grails:
                 scriptlet: html
                 taglib: none
                 staticparts: none
+<% if (project.hasFeature('hibernate')) { %>
 ---
 hibernate:
     cache:
@@ -138,3 +139,4 @@ environments:
                 testOnReturn: false
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
+<% } %>
